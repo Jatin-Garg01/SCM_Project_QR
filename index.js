@@ -2,7 +2,6 @@ import inquirer from 'inquirer';
 import qr from 'qr-image';
 import fs from 'fs';
 
-
 console.log(`\n+-----------------------------------------------------+`);
 
 inquirer
@@ -28,4 +27,4 @@ inquirer
     if (error.isTtyError) {
     } else {
     }
-  })
+  });
