@@ -2,6 +2,8 @@ This project aims to be the best, clearest QR Code generator library in multiple
 
 
 Features
+
+
 Core features:
 
 Available in 6 programming languages, all with nearly equal functionality: Java, TypeScript/JavaScript, Python, Rust, C++, C
