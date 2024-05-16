@@ -2,8 +2,8 @@ import inquirer from 'inquirer';
 import qr from 'qr-image';
 import fs from 'fs';
 
-console.log(`\n+-----------------------------------------------------+`);
-
+console.log(`+-----------------------------------------------------+`);
+console.log()
 inquirer
   .prompt([
     {
@@ -18,8 +18,9 @@ inquirer
 
     fs.writeFile("URL.txt", url, (err) => {
         if (err) throw err;
-        console.log(`\nThe file has been saved!`);
+        console.log(`The file has been saved!`);
         console.log(`+-----------------------------------------------------+`);
+        console.log(`Created by Jatin Garg, Isha Sharma and Harmanpreet Kaur .....`);
       });
 
   })
@@ -28,3 +29,4 @@ inquirer
     } else {
     }
   });
+
