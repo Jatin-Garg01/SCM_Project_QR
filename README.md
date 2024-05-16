@@ -1,28 +1,26 @@
-This project aims to be the best, clearest QR Code generator library in multiple languages. The primary goals are flexible options and absolute correctness. Secondary goals are compact implementation size and good documentation comments
+# 🌟 QR Code Generator 🌟
 
+This Node.js application lets you generate QR codes with ease! 🚀 Simply input your desired text or URL, and watch the magic happen! ✨ It's a fun and convenient way to share information digitally. 💬📱
 
-Features:
+## Installation 🛠️
 
+1. Ensure you have Node.js installed on your system. If not, download it from [Node.js website](https://nodejs.org/). 📦
+2. Clone this repository to your local machine. 🖥️
+3. Navigate to the project directory in your terminal. 🚶‍♂️
+4. Run `npm install` to install dependencies. 📥
 
-Core features:
+## Usage 🚀
 
-Available in 6 programming languages, all with nearly equal functionality: Java, TypeScript/JavaScript, Python, Rust, C++, C.
-Significantly shorter code but more documentation comments compared to competing libraries.
-Supports encoding all 40 versions (sizes) and all 4 error correction levels, as per the QR Code Model 2 standard.
-Output format: Raw modules/pixels of the QR symbol.
-Detects finder-like penalty patterns more accurately than other implementations.
-Encodes numeric and special-alphanumeric text in less space than general text.
-Open-source code under the permissive MIT License.
-Manual parameters:
+1. After installation, run the app using `node index.js`. 🚀
+2. Input your desired text or URL when prompted. 📝
+3. The app generates a QR code representing your input! 🎉
+4. Find your QR code saved in the `output` directory. 🖼️
 
-User can specify minimum and maximum version numbers allowed, then library will automatically choose smallest version in the range that fits the data
-User can specify mask pattern manually, otherwise library will automatically evaluate all 8 masks and select the optimal one
-User can specify absolute error correction level, or allow the library to boost it if it doesn't increase the version number
-User can create a list of data segments manually and add ECI segments
-Optional advanced features (Java only):
+## Dependencies 📦
 
-Encodes Japanese Unicode text in kanji mode to save a lot of space compared to UTF-8 bytes
-Computes optimal segment mode switching for text with mixed numeric/alphanumeric/general/kanji parts
-More information about QR Code technology and this library's design can be found on the project home page.
+- `qrcode`: Node.js library for QR code generation.
+- `prompt-sync`: Synchronous prompt library for Node.js. 🔄
 
+## Contributing 🙌
 
+Contributions are welcome! Feel free to open issues or submit pull requests on GitHub. 🎈
