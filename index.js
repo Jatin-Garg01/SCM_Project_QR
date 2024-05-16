@@ -18,7 +18,7 @@ inquirer
 
     fs.writeFile("URL.txt", url, (err) => {
         if (err) throw err;
-        console.log(`\nThe file has been saved!`);
+        console.log(`The file has been saved!`);
         console.log(`+-----------------------------------------------------+`);
       });
 
