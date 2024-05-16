@@ -1,18 +1,18 @@
 This project aims to be the best, clearest QR Code generator library in multiple languages. The primary goals are flexible options and absolute correctness. Secondary goals are compact implementation size and good documentation comments
 
 
-Features
+Features:
 
 
 Core features:
 
-Available in 6 programming languages, all with nearly equal functionality: Java, TypeScript/JavaScript, Python, Rust, C++, C
-Significantly shorter code but more documentation comments compared to competing libraries
-Supports encoding all 40 versions (sizes) and all 4 error correction levels, as per the QR Code Model 2 standard
-Output format: Raw modules/pixels of the QR symbol
-Detects finder-like penalty patterns more accurately than other implementations
-Encodes numeric and special-alphanumeric text in less space than general text
-Open-source code under the permissive MIT License
+Available in 6 programming languages, all with nearly equal functionality: Java, TypeScript/JavaScript, Python, Rust, C++, C.
+Significantly shorter code but more documentation comments compared to competing libraries.
+Supports encoding all 40 versions (sizes) and all 4 error correction levels, as per the QR Code Model 2 standard.
+Output format: Raw modules/pixels of the QR symbol.
+Detects finder-like penalty patterns more accurately than other implementations.
+Encodes numeric and special-alphanumeric text in less space than general text.
+Open-source code under the permissive MIT License.
 Manual parameters:
 
 User can specify minimum and maximum version numbers allowed, then library will automatically choose smallest version in the range that fits the data
