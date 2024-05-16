@@ -20,6 +20,7 @@ inquirer
         if (err) throw err;
         console.log(`The file has been saved!`);
         console.log(`+-----------------------------------------------------+`);
+        console.log(`Created by Jatin Garg, Isha Sharma and Harmanpreet Kaur .....`);
       });
 
   })
